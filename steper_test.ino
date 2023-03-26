@@ -6,6 +6,8 @@
 
 #include <AccelStepper.h>
 
+int spd = 500;
+
 AccelStepper stepperL(AccelStepper::DRIVER, STP_L, DIR_L);
 AccelStepper stepperR(AccelStepper::DRIVER, STP_R, DIR_R);
 
